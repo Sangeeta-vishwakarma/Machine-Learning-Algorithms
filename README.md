@@ -20,7 +20,8 @@ This project demonstrates how to implement a Simple Linear Regression model usin
 - Using scikit-learn for training and prediction.
 - Importance of train/test split for model validation.
 
-
+### Sample Output
+The regression line fits a linear trend showing how salary increases with experience. The model generalizes well with clear predictions on test data.
 
 ## 2. Multiple Linear Regression
 ## 3. Polynomial Linear Regression 
