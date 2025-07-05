@@ -42,7 +42,7 @@ This notebook implements Multiple Linear Regression using the sklearn library. I
 - Mean Squared Error (MSE): Punishes large errors more.
 - Root Mean Squared Error (RMSE): Same unit as target; easy to interpret.
 
-  
+  ### Final Thought
 - Multiple Linear Regression is a good baseline for regression problems.
 - Always check multicollinearity and feature importance before deploying the model.
 - Preprocessing, visualization, and interpretation are key in real-world applications.
