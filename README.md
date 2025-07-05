@@ -30,6 +30,7 @@ This notebook implements Multiple Linear Regression using the sklearn library. I
 - Model training
 - Predictions
 - Performance evaluation using common regression metrics
+  
 ### Key Learnings:
 - Pandas & NumPy are essential for handling structured data.
 - Matplotlib & Seaborn are used for data visualization.
