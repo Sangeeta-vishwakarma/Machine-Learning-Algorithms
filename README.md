@@ -13,7 +13,7 @@ This project demonstrates how to implement a Simple Linear Regression model usin
 - Making Predictions
 - Visualizing Results
 
- ### Key Learnings
+### Key Learnings
 - How to preprocess and split a dataset for machine learning.
 - Understanding and applying Simple Linear Regression.
 - Visualizing regression results using scatter plots and line graphs.
@@ -30,7 +30,7 @@ This notebook implements Multiple Linear Regression using the sklearn library. I
 - Model training
 - Predictions
 - Performance evaluation using common regression metrics
-  
+
 ### Key Learnings:
 - Pandas & NumPy are essential for handling structured data.
 - Matplotlib & Seaborn are used for data visualization.
@@ -43,7 +43,7 @@ This notebook implements Multiple Linear Regression using the sklearn library. I
 - Mean Squared Error (MSE): Punishes large errors more.
 - Root Mean Squared Error (RMSE): Same unit as target; easy to interpret.
 
-  ### Final Thought
+### Final Thought
 - Multiple Linear Regression is a good baseline for regression problems.
 - Always check multicollinearity and feature importance before deploying the model.
 - Preprocessing, visualization, and interpretation are key in real-world applications.
