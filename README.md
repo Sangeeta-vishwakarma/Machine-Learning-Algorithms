@@ -50,6 +50,43 @@ This notebook implements Multiple Linear Regression using the sklearn library. I
 
 
 ## 3. Polynomial Linear Regression 
+### Predicting Salaries Based on Position Level
+This project demonstrates the application of Polynomial Regression to model and predict salaries based on position levels. While simple linear regression may not capture complex trends in data, polynomial regression introduces non-linearity, making it more suitable for datasets with curved relationships.
+
+The goal is to predict an employee's salary based on their position level in an organization. Given a dataset of position levels and corresponding salaries, the objective is to build both Linear and Polynomial Regression models, compare their performance, and visualize the difference in predictions.
+
+### Steps:
+1. Importing Libraries and Dataset
+2. Data Preparation
+3. Model Building
+   - Linear Regression Model:  Fitted a simple linear regression to the dataset to serve as a baseline.
+   -  Polynomial Regression Model: Generated polynomial features up to degree 4.
+     Fitted a linear regression model on these polynomial features.
+4. Visualization
+Plotted:
+- Linear regression results (straight line) showing underfitting.
+- Polynomial regression results (curved line) demonstrating a better fit to the data.
+- High-resolution plots to visualize smooth polynomial curves for better interpretation.
+  
+5. Prediction
+   Predicted the salary for a position level of 6.5
+
+### Key Learnings
+- Linear vs. Polynomial Regression:
+  - Linear regression fails to capture the nonlinear nature of real-world data trends.
+  - Polynomial regression, by adding powers of the features, provides flexibility and improved accuracy for nonlinear data.
+- Model Selection:
+  - Choosing the right degree of the polynomial is crucial — too low may underfit, too high may overfit.
+
+- Visualization Importance:
+  - Graphical comparisons between model fits provide intuitive understanding and assist in selecting the most appropriate model.
+- Practical Usage:
+  - Polynomial regression is ideal for problems where the relationship between variables is not strictly linear, such as growth curves, salary prediction based on experience, etc.
+
+### Conclusion
+This project effectively showcases the limitations of linear regression in capturing complex trends and how polynomial regression can overcome them. It also highlights the importance of feature engineering and model evaluation through visualization.
+
+
 ## 4. Support Vector Regression
 ## 5. Decision Tree Regression
 ## 6. Random Forest Regression
