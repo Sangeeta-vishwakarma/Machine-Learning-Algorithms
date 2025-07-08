@@ -88,6 +88,20 @@ This project effectively showcases the limitations of linear regression in captu
 
 
 ## 4. Support Vector Regression
+This contains an implementation of Support Vector Regression (SVR) using the RBF kernel to model and predict salaries based on position levels in a company. Predict an employee's salary based on their position level using a Support Vector Machine (SVM) regression algorithm. This helps demonstrate how non-linear models can capture complex trends in small datasets.
+
+### Steps
+- Data Preprocessing
+- Model Training
+- Prediction
+- Visualization
+
+### Learning Outcomes
+- Understanding how Support Vector Regression works
+- Applying feature scaling correctly
+- Visualizing regression results in 2D
+- Importance of inverse transforming scaled results
+  
 ## 5. Decision Tree Regression
 ## 6. Random Forest Regression
 
