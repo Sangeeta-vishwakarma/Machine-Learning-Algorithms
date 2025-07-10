@@ -103,6 +103,34 @@ This contains an implementation of Support Vector Regression (SVR) using the RBF
 - Importance of inverse transforming scaled results
   
 ## 5. Decision Tree Regression
+This contains a Jupyter Notebook demonstrating the implementation of a Decision Tree Regression model using the scikit-learn library. 
+
+### Dataset Used
+The dataset used appears to be a Position Level Salary dataset, commonly used in regression tutorials.
+It includes:
+- Position (categorical)
+- Level (numerical)
+- Salary (target variable)
+
+### Workflow Overview
+1. Data Preprocessing
+- Load dataset using pandas.
+- Extract features (X) and target (y).
+2. Model Training
+- Fit a DecisionTreeRegressor on the dataset.
+3. Prediction
+- Predict salary for a specific level (e.g., 6.5).
+4. Visualization
+- Plot decision tree predictions over a high-resolution X_grid.
+
+### Output
+- The plot demonstrates how decision trees create stepwise prediction lines.
+- Salary is predicted for non-integer levels, e.g., Level 6.5.
+### Learnings
+- Understanding how Decision Tree Regression works.
+- Differences between linear and stepwise predictions.
+- Importance of using high-resolution input for smooth visualization.
+
 ## 6. Random Forest Regression
 
 # Classification
