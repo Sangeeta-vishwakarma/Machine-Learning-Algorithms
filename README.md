@@ -1,5 +1,5 @@
 # Machine-Learning-Algorithms
-This repository includes basic algorithms of machine learning.
+This repository includes basic algorithms of machine learning. It contains juyter notebook, idle(python) and dataset(csv/excel format).
 
 # Regression
 ## 1. Simple Linear Regression
