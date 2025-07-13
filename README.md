@@ -136,3 +136,4 @@ It includes:
 # Classification
 ## 1. Logistic Regression
 ## 2. K-Nearest Neighbors( KNN )
+## 3. Support Vector Machine
